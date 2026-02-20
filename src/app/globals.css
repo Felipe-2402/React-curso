@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #070b14;
+  color: #d9f3ff;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 100vh;
+}
+
+.left, .right {
+  padding: 40px;
+  border-left: 1px solid egba(0,255,255,0.3), transparent;
+}
+
+.center {
+  padding: 40px;border-left: 1px solid egba(0,255,255,0.3);
+  border-right: 1px solid egba(0,255,255,0.3);
+  background: #0e1525;
+}
+
+h1 {
+  color: #00ffff;
+  margin-bottom: 15px;
+}
